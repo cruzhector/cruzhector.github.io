@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
-    <link>/</link>
-    <description>Recent content on Terminal</description>
+    <title>hugo on Terminal</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in hugo on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Mar 2021 12:53:18 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Mar 2021 12:53:18 +0530</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo and Gh Pages</title>
       <link>/posts/hugo-and-gh-pages/</link>
@@ -17,15 +17,6 @@
 Now let us get started with creating out first blog with hugo and host it on Github pages.
 Step-1 Download Hugo We have to download the framework to work on templates and run them.
 A beautiful documentation is provided by hugo for each machine respectievly.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description></description>
     </item>
     
   </channel>

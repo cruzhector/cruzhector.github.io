@@ -2,10 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>/tags/gh-pages/</loc>
+    <lastmod>2021-03-20T12:53:18+05:30</lastmod>
+  </url><url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2021-03-20T12:53:18+05:30</lastmod>
+  </url><url>
+    <loc>/posts/hugo-and-gh-pages/</loc>
+    <lastmod>2021-03-20T12:53:18+05:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2021-03-20T12:53:18+05:30</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2021-03-20T12:53:18+05:30</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2021-03-20T12:53:18+05:30</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>/categories/</loc>
   </url>
 </urlset>

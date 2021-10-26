@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Hugo and Gh Pages :: Terminal</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Let me give a brief introduction to Hugo. Hugo is a framework for generating static sites meaning it will provide us with a template to create static websites.
+Now let us get started with creating out first blog with hugo and host it on Github pages.
+Step-1 Download Hugo We have to download the framework to work on templates and run them.
+A beautiful documentation is provided by hugo for each machine respectievly." />
+<meta name="keywords" content="hugo" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/posts/hugo-and-gh-pages/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/green.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/img/favicon/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Hector" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Hugo and Gh Pages">
+<meta property="og:description" content="How to create a blog with hugo and github pages" />
+<meta property="og:url" content="/posts/hugo-and-gh-pages/" />
+<meta property="og:site_name" content="Terminal" />
+
+  
+    <meta property="og:image" content="/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-03-20 12:53:18 &#43;0530 &#43;0530" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/hugo-and-gh-pages/">Hugo and Gh Pages</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-03-20 
+      </span>
+    
+    
+    <span class="post-author">:: Hector</span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="/tags/hugo/">hugo</a>&nbsp;
+    
+    #<a href="/tags/gh-pages/">gh-pages</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <p>Let me give a brief introduction to <a href="https://gohugo.io/">Hugo</a>. Hugo is a framework for generating static sites meaning it will provide us with a template to create static websites.</p>
+<p>Now let us get started with creating out first blog with hugo and host it on Github pages.</p>
+<h2 id="step-1-download-hugo">Step-1 Download Hugo<a href="#step-1-download-hugo" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>We have to download the framework to work on templates and run them.</p>
+<p>A beautiful documentation is provided by hugo for each machine respectievly. Download it from here <a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></p>
+<p>If you want to check just type <code>hugo help</code> in your bash if you see the list of items then the installation was a success.</p>
+<h2 id="step-2-create-github-repositories">Step-2 Create Github repositories<a href="#step-2-create-github-repositories" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Now we have to create 2 github repositories.</p>
+<p><strong>But why 2 repos?</strong> One repo will have hugo template where in you write your posts(nothing but content for your blog) and the other is for hosting the hugo template with the content you wrote on a Github page.</p>
+<p>We will name the 1st repo as blog(Of course you can name it with whatever name you want) and the 2nd repo we have to name it this way <code>&lt;github-username&gt;.github.io</code> example: my username is cruzhector so my repo name will be <code>cruzhector.github.io</code>. This way github will automatically create a website for you.</p>
+<h2 id="step-3-pick-a-template-and-start-the-hugo-server">Step-3 Pick a template and Start the Hugo server<a href="#step-3-pick-a-template-and-start-the-hugo-server" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>There are beautiful and hassle free templates available in the hugo themes space, You can find them here <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+<p>For this tutorial we will use <a href="https://github.com/panr/hugo-theme-terminal">terminal-template</a></p>
+<p>Now clone the 1st repository we created in the step-2 open the folder and run <code>hugo new site .</code>(If you want to create site in a nested folder then instead of (.) specify folder name it will create automatically).</p>
+<p>Next do <code>cd themes</code> and clone the <a href="https://github.com/panr/hugo-theme-terminal">terminal-template</a> repo. Now come back to the root folder <code>cd ..</code> open <code>config.toml</code> file and paste this <a href="https://github.com/panr/hugo-theme-terminal#how-to-configure">config.toml</a> file.</p>
+<p>Run this command <code>hugo server -w</code> from the root folder to start the hugo server. Hugo will read the template mentioned in the config.toml file and serves it on <code>localhost:1313</code>.</p>
+<h2 id="step-4-write-a-post">Step-4 Write a post<a href="#step-4-write-a-post" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>It is time for you to write a post. Open terminal in the root folder and run this <code>hugo new post/first-post.md</code>. This will create a .md file in the content/posts folder. Open the file and provide few details like title, description and write some content below the +++ section.</p>
+<p>If you have stopped the hugo server then restart that. If you havent then you should see your first post in the browser.</p>
+<p>So cool right with a minimum effort you are able to write content.</p>
+<h2 id="github-page">Github page<a href="#github-page" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Now let us make your content visible for others as well.</p>
+<p>Clone the 2nd repo we create that is <code>&lt;github-username&gt;.github.io</code> in the same folder where you cloned your 1st repo that is blog. The structure might look this the below.</p>
+<pre><code>projects
+    /blog
+    /&lt;github-username&gt;.github.io
+</code></pre><p>Now from blog folder run <code>hugo -d ../&lt;github-username&gt;.github.io</code>. This will output the content from the blog folder to the website folder. If you open the website folder you will see static files like html, css etc.. Push the files to git. Once you push the files then open this url <code>https://&lt;github-username&gt;.github.io</code> in my case it is <code>https://cruzhector.github.io/</code>.</p>
+<p>Voila!! your blog. Thats it you have created you first blog with Hugo and Github pages.</p>
+
+      </div></div>
+
+  
+  
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

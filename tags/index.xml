@@ -5,6 +5,25 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Mar 2021 12:53:18 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gh-pages</title>
+      <link>/tags/gh-pages/</link>
+      <pubDate>Sat, 20 Mar 2021 12:53:18 +0530</pubDate>
+      
+      <guid>/tags/gh-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Sat, 20 Mar 2021 12:53:18 +0530</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
